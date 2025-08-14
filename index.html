@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invoice Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card pink">
+    <h2>📦 Invoice Checker</h2>
+    <input id="brand" type="text" placeholder="Brand (e.g., TUMI)" />
+    <input id="invoice" type="text" placeholder="Invoice No (e.g., INV-E2500417)" />
+    <button id="checkBtn">Check</button>
+    <div id="error"></div>
+  </div>
+
+  <div class="card blue">
+    <h2>📦 Invoice Checker</h2>
+    <table id="resultTable">
+      <thead>
+        <tr>
+          <th>PO</th>
+          <th>TYPE</th>
+          <th>COLOR</th>
+          <th>SIZE</th>
+          <th>QTY</th>
+          <th>REMAIN</th>
+          <th>REWORK</th>
+          <th>STATUS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="8">Loading...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
