@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbznvZPf4Q4iPrfGEhbbhgEsXkQrL4--tPhRJhlnfNXS7SHxQjbATXY_URuV89AB3o2vzg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbzbF8qv20rAyXefN9XsHf2P93vgoxH2WzcrcWFmGv1LwYPmP4IxqvvR4eO_--bJKyg_xQ/exec";
 
 document.getElementById("checkBtn").addEventListener("click", () => {
   const brand = document.getElementById("brand").value.trim();
