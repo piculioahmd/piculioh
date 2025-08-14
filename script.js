@@ -1,4 +1,4 @@
-const API_URL = "YOUR_APPS_SCRIPT_DEPLOYMENT_URL";
+const API_URL = "https://script.google.com/macros/s/AKfycbznvZPf4Q4iPrfGEhbbhgEsXkQrL4--tPhRJhlnfNXS7SHxQjbATXY_URuV89AB3o2vzg/exec";
 
 document.getElementById("checkBtn").addEventListener("click", () => {
   const brand = document.getElementById("brand").value.trim();
