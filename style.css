@@ -6,45 +6,26 @@ body {
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 16px;
   margin: 20px auto;
   padding: 20px;
-  max-width: 800px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.pink {
-  background: #ffe0e0;
-}
-
-.blue {
-  background: #007bff;
-  color: white;
-}
-
-input {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-}
-
-button {
-  background: #ffffcc;
-  border: none;
-  padding: 10px;
-  width: 100%;
-  cursor: pointer;
+  max-width: 1000px; /* biar lebih lebar */
+  background: linear-gradient(135deg, #ffe0f0, #ffd6eb);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   background: white;
-  color: black;
+  font-size: 14px;
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #f5c2d6;
   padding: 8px;
+  text-align: center;
 }
+
+th:nth-child(1) { width: 100px; } /* PO */
+th:nth-child(2) { width: 120px; } /* TYPE */
